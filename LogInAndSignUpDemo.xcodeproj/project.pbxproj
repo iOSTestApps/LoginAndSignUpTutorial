@@ -301,6 +301,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					74366EA1158AAE0F00A17D8A = {
+						DevelopmentTeam = 8G9SJKMB6B;
+					};
+				};
 			};
 			buildConfigurationList = 74366E9C158AAE0F00A17D8A /* Build configuration list for PBXProject "LogInAndSignUpDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -428,6 +433,7 @@
 		74366EBB158AAE1000A17D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -442,6 +448,7 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f014e60d-5256-4a92-93dd-6009d6fe0df2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -449,6 +456,7 @@
 		74366EBC158AAE1000A17D8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -463,6 +471,7 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f014e60d-5256-4a92-93dd-6009d6fe0df2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
